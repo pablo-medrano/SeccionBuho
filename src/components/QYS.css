@@ -1,0 +1,28 @@
+.hero-container2 {
+    background-color: blueviolet;    
+    height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* para mover el titulo en y coordenadas*/
+        align-items: center; /*Para mover el titulo en x coordenadas*/
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+        object-fit: contain;
+    }
+    
+    /* ESTO ES PARA EL TITULO---> SECCION BUHO*/
+    .hero-container2 > h1 {
+        color: #FFAF33; /* color naranja*/
+        /*color: #fff;*/
+        font-size: 140px;
+        margin-top: -100px;
+    }
+    
+    
+    /* ESTO ES PARA EL SUBTITULO DE LA PAGINA PRINCIPAL, LO QUE VA ABAHO DE SECCION BUHO*/
+    .hero-container2 > p {
+        margin-top: 6px;
+        color: #FFAF33;
+        font-size: 40px; /* es para el numero del subtitulo de la primera pagina abajo de seccion buho*/
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
